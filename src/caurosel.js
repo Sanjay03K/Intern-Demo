@@ -2,7 +2,7 @@ import {Carousel} from 'react-bootstrap';
 
 function Pageslide(){ 
     return(
-<Carousel style={{marginTop:"1em",height:"12em",marginLeft:"2em"}}>
+<Carousel className="font" style={{marginTop:"1em",height:"12em",marginLeft:"2em"}}>
 <Carousel.Item style={{marginTop:"10em"}}>
     <Carousel.Caption>
       <h3 style={{marginLeft:"1em"}}>I am happy to use this website as it helps our company to recruit people with good knowledge.<br/>
